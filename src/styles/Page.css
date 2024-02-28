@@ -1,0 +1,163 @@
+.main-container{
+    display: flex;
+    flex-direction: row;
+    margin: 0 2vw;
+}
+.award{
+    width: 42vw;
+}
+.details{
+    width: 58vw;
+}
+.award img{
+    width: 31vw;
+}
+
+.logo img{
+    width: 22vw;
+    height: 17vh;
+}
+.details{
+    margin-top: 2vh;
+    text-align: start;
+}
+.details h3{
+    margin: 0;
+    font-size: 1.1vw;
+}
+li{
+    font-size: 1.1vw;
+}
+ul{
+    margin-top: 1vh !important;
+    margin-bottom: 2vh;
+    padding-left: 5vh;
+}
+.main-image{
+    display: flex;
+    justify-content:  center;
+}
+.main-image img{
+    width: 60vw;
+}
+.image-read{
+    font-size: 1.1vw;
+}
+.sub-main img{
+    width: 73vw;
+}
+.sub-main p{
+    margin-top: 2vh;
+    font-size: 1vw;
+}
+.break{
+    width: 93vw;
+    border-color: red
+}
+.other-details h4{
+    font-size: 1vw;
+}
+.other-details p{
+    font-size: 1vw;
+    font-weight: 500;
+    margin-bottom: 3vh;
+}
+.bar{
+    color: rgb(255, 0, 0);
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #ec3237;
+    margin: 0 1vw;
+    padding: 1vw 8vw;
+    height: 10vh;
+    margin-bottom: 2vh;
+    justify-content: space-between;
+
+}
+.icon-container{
+    display: flex;
+    flex-direction: row;
+    gap: 0.4vw;
+    align-items: first baseline;
+}
+.ficon{
+    color: white;
+    height: 3vh;
+}
+.icon-container p{
+    font-size: 1vw;
+    font-weight: 400;
+    color: white;
+}
+
+
+@media (max-width: 480px){
+    .logo img{
+        width: 50vw;
+        height: 10vh;
+    }
+    .main-container{
+        display: flex;
+        flex-direction: column;
+        margin: 0 1vw;
+    }
+    .award{
+        width: 100vw;
+    }
+    .award img{
+        width: 35vh;
+        height: 60vh;
+    }
+    .details{
+        width: 100vw;
+    }
+    .details h3{
+        text-align: center;
+        font-size: 3.7vw;
+    }
+    .details li{
+        font-size: 3vw;
+    }
+    .main-image img{
+        width: 85vw;
+    }
+    .image-read{
+        margin: 1vh 5vw;
+        font-size: 2vw;
+    }
+    .sub-head{
+        margin: 2vh 5vw;
+    }
+    .sub-main p{
+        font-size: 2.3vw;
+    }
+    .other-details h4{
+        font-size: 2.8vw;
+    }
+    .other-details p{
+        margin: 2vh 3vw;
+        font-size: 2.5vw;
+        font-weight: 400;
+    }
+    .footer{
+        padding-top: 1vh;
+        height: 6vh;
+        margin-bottom: 1vh;
+    }
+    .ficon{
+        height: 2.2vh;
+    }
+    .icon-container p{
+        font-size: 1.5vw;
+    }
+}
+
+  
+@media screen and (min-width: 767px) and (max-width: 1023px){
+    .logo img{
+        width: 35vw;
+        height: 10vh;
+    }
+}
